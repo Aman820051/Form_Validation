@@ -21,7 +21,7 @@ function FormComponent() {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
-    console.log('Submitted Data:', formData);
+    console.log(formData);
     // You might want to do something with the data, like sending it to a server
   };
 
